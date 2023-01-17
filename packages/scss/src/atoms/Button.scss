@@ -1,0 +1,21 @@
+@import '../foundation/all';
+
+.btn {
+  border: none;
+  border-radius: map-get($spacing, 'xxs');
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  padding: map-get($spacing, 'sm') map-get($spacing, 'lg');
+
+
+}
+
+.btn-primary {
+  background-color: $btn-primary-bg-color;
+  color: $btn-primary-color;
+}
+
+.btn:hover {
+  background-color: $btn-primary-bg-hover;
+
+}

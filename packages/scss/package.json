@@ -1,0 +1,20 @@
+{
+  "name": "@d.s/scss",
+  "version": "1.0.0",
+  "description": "**FocusList For Design System**\r - Organized: Fixed Code Structure\r - No Specificity Issues\r - Atomic Design Principles\r -  Easy To Understand [Variables,Comments,etc]\r -  Fully Customizable\r - Reusable Across Projects or Teams\r - Easy To Maintain\r  - [System Example figma](https://www.figma.com/file/mJZ1H9VvUbxFB84vkSHsAu/Design-System---Demo)",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./src/scripts/build.js",
+    "dev": "nodemon --watch src --exec yarn build -e scss"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.57.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

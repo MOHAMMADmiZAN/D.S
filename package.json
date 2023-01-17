@@ -1,0 +1,21 @@
+{
+  "name": "@d.s/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^6.4.1"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "playground/*"
+    ]
+  },
+  "private": true,
+  "scripts": {
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "dev": "lerna run dev"
+  }
+}
