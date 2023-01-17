@@ -120,11 +120,14 @@
  *
  */
 .btn {
-  border: none;
+  border: transparent;
   border-radius: 0.5rem;
   font-family: var(--dse-body-font-family, "Playfair Display", serif);
   font-size: var(--dse-body-font-size, 0.875rem);
   padding: 1rem 2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 11px rgba(157, 157, 157, 0.21);
+  outline: transparent;
 }
 
 .btn-primary {

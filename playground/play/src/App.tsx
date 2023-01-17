@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-     <Button onClick={()=>alert('you are best')} title={`click me btn`}>Click</Button>
+     <Button onClick={()=>alert('this button for test ')} title={`click me btn`} >Click</Button>
     </div>
   )
 }

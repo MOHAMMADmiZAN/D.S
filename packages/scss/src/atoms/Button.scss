@@ -1,11 +1,14 @@
 @import '../foundation/all';
 
 .btn {
-  border: none;
+  border: transparent;
   border-radius: map-get($spacing, 'xxs');
   font-family: $body-font-family;
   font-size: $body-font-size;
   padding: map-get($spacing, 'sm') map-get($spacing, 'lg');
+  cursor: pointer;
+  box-shadow: map-get($shadows, 'base');
+  outline: transparent;
 
 
 }

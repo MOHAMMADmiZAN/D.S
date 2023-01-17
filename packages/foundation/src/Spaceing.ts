@@ -10,4 +10,5 @@ const spaces = {
     xxl: 'xxl',
     xxxl: 'xxxl',
 };
+
 export default Object.freeze(spaces);
