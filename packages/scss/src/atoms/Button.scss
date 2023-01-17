@@ -8,17 +8,24 @@
   padding: map-get($spacing, 'sm') map-get($spacing, 'lg');
   cursor: pointer;
   box-shadow: map-get($shadows, 'base');
-  outline: transparent;
+
+  &:hover {
+    background-color: $btn-primary-bg-hover;
+  }
+
+  &:focus, &:focus-visible {
+    outline: none;
+  }
+
+  &-primary {
+    background-color: $btn-primary-bg-color;
+    color: $btn-primary-color;
+
+    &:hover {
+      background-color: $btn-primary-bg-hover;
+    }
+  }
 
 
 }
 
-.btn-primary {
-  background-color: $btn-primary-bg-color;
-  color: $btn-primary-color;
-}
-
-.btn:hover {
-  background-color: $btn-primary-bg-hover;
-
-}
